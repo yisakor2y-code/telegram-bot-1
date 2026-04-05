@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
 import os 
-TOKEN = os.getenv("token")
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 123456789  # your telegram user id
 CHANNEL_ID = -1003604224872  # your channel id
 
